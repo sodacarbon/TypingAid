@@ -1,0 +1,6 @@
+*.exe
+*.log
+*.db-journal
+*.db
+Source/wordlist.txt
+Source/WordlistLearned.txt
