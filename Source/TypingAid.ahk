@@ -597,7 +597,7 @@ DisableKeyboardHotKeys()
 
 #MaxThreadsPerHotkey 1 
     
-;~ Key 1-0 are conflict with Thai characters ; Changed to Ctrl 1-0
+;~ Key 1-0 are conflict with Thai characters ; Changed to Ctrl Alt Shift 1-0 (Use 3 combo because it conflict with other scripts' hotkeys)
 ; $1:: 
 ; $2:: 
 ; $3:: 
@@ -608,16 +608,16 @@ DisableKeyboardHotKeys()
 ; $8:: 
 ; $9:: 
 ; $0::
-$^1:: 
-$^2:: 
-$^3:: 
-$^4:: 
-$^5:: 
-$^6:: 
-$^7:: 
-$^8:: 
-$^9:: 
-$^0::
+$^!+1:: 
+$^!+2:: 
+$^!+3:: 
+$^!+4:: 
+$^!+5:: 
+$^!+6:: 
+$^!+7:: 
+$^!+8:: 
+$^!+9:: 
+$^!+0::
 CheckWord(A_ThisHotkey)
 Return
 
